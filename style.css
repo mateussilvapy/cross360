@@ -36,19 +36,17 @@ section.seg {
 
 section.ter {
     background-image: url(bruno.jpeg);
-    height: 91rem;
     background-size: cover;
     background-position: center top;
 }
 
 section.quar {
-    background-color: black;
+    background: radial-gradient(circle, #035472 17%, #029bd3 97%);
     height: 8rem;
 }
 
 section.qui {
     background-color: black;
-    height: 46rem;
 }
 
 section.sex {
@@ -79,7 +77,6 @@ h2.porque {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 60%;
-    text-shadow: 1px 1px 2px#035472;
 }
 
 h2.planos {
@@ -93,7 +90,6 @@ h2.planos {
     padding-bottom: 10px;
     width: 60%;
     text-shadow: 1px 1px 2px#035472;
-    padding-top: 50px;
 }
 
 h2.valores {
@@ -121,10 +117,8 @@ p.fundo {
     text-shadow: 1px 1px 2px black;
     background-color:#035472;
     width: 20rem;
-    padding-left: 10px;
-    padding-right: 10px;
     text-align: justify;
-    padding-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
 h2.wod {
@@ -178,14 +172,12 @@ div.refe {
 p.ola {
     color: white;
     font-weight: 900;
-    text-shadow: 1px 1px 1px #02374b;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px 20px 20px 20px;;
     text-align: justify;
-    padding-bottom: 10px;
     width: 85%;
     margin: auto;
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: rgba(128, 128, 128, 0.678);
     border: 1px solid rgba(0, 0, 0, 0.527);
 }
 
@@ -197,6 +189,7 @@ div.linha{
 
 div.espaco {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.foto {
@@ -225,7 +218,6 @@ img.horarios {
     background-position: center;
     display: block;
     margin: 0px auto;
-    padding-bottom: 0px;
 }
 
 img.footer {
